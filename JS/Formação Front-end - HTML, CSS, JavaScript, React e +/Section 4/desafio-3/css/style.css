@@ -1,0 +1,13 @@
+#box-model{
+    margin: 15px;
+    padding: 15px;
+    border: 5px solid #459;
+    outline: 5px solid #952;
+    background-color: #123;
+}
+
+.title{
+    background-color: #000;
+    color: #fff;
+    border: none;
+}

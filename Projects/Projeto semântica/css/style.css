@@ -1,0 +1,35 @@
+body {
+    background-image: url(../images/bg-3.jpg);
+    background-size: 100%;
+}
+
+nav {
+    border: 1px solid red;
+}
+
+ul {
+    border: 1px solid green;
+    text-align: right;
+}
+
+li {
+    border: 1px solid white;
+    color: aliceblue;
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li a {
+    border: 1px solid blue;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: gray;
+}
+
+li a:hover {
+
+}
