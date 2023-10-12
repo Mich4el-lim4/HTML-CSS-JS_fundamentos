@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>tabuada</h1>
+
+    <button onclick="mostrarTabuada()">Mostrar Tabuada</button>
+    <button onclick="limaprTabuada()">Limpar Tabuada</button>
+    <div id="output"></div>
+
+    <script>
+        const output = document.getElementById('output');
+        function mostrarTabuada(){
+            let number = parseFloat(prompt('digite um número'));
+            let message = '';
+            for(let index = 0; index <= 100; index++){
+                message += `${number} x ${index} = ${(number * index)}<br>`;
+            }
+            output.innerHTML = message;
+        }
+        function limaprTabuada(){
+            output.innerHTML = '';
+        }
+    </script>
+</body>
+</html>
