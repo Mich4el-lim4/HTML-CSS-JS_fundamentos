@@ -27,7 +27,21 @@
 
     <script>
 
-        
+    const btn = document.querySelector('form input[type="submit"]');
+    btn.disabled = true;
+
+        function enableOrDisableButton() {
+            const contrato = document.querySelector("#contrato"); 
+            let checked = contrato.checked
+
+            //if(checked){
+            //    btn.disable = false;
+           // } else{
+            //    btn.disable = true;
+            //}
+            btn.disabled = !checked;
+            console.log(checked);
+        }
 
     </script>
 
